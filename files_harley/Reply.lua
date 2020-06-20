@@ -26,6 +26,16 @@ TextReply = 'اهلا والف هلا🥺🔥'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'خاص' then
+    TextReply = 'الخاص للرخاص'
+    send(msg.chat_id_, msg.id_,'['..TextReply..']')
+    return false
+    end
+    if text == 'خ' then
+        TextReply = 'لتلح اخي'
+        send(msg.chat_id_, msg.id_,'['..TextReply..']')
+        return false
+        end
 if text == '😐' then
 TextReply = 'شبيك صافن ولك😌👌'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
@@ -37,10 +47,15 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'بوت زربه' then
-TextReply = 'زربه بحلكك وليدي🌚😂'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
-return false
-end
+    TextReply = 'زربه بحلكك وليدي🌚😂'
+    send(msg.chat_id_, msg.id_,'['..TextReply..']')
+    return false
+    end
+    if text == 'ولي' then
+        TextReply = 'طيط لو يجي جدكس'
+        send(msg.chat_id_, msg.id_,'['..TextReply..']')
+        return false
+        end
 if text == 'اريد اكبل' then
 TextReply = 'شوفلي وياك وحده😂🥺'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
@@ -72,7 +87,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'تعالي خاص' then
-TextReply = 'هلو لصير زاحف ونجب😹👻'
+TextReply = 'خليها تتفاعل اخي 😹👻'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -102,10 +117,25 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'انجب' then
-TextReply = 'جب بحلكك ابني🙂😂'
+TextReply = 'كلخره سخيف'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'نجب' then
+    TextReply = 'كلخره سخيف'
+    send(msg.chat_id_, msg.id_,'['..TextReply..']')
+    return false
+    end
+    if text == 'نجبي' then
+        TextReply = 'بالي وصخ اخي 😹🌚'
+        send(msg.chat_id_, msg.id_,'['..TextReply..']')
+        return false
+        end
+        if text == 'انجبي' then
+            TextReply = 'بالي وصخ اخي 😹🌚'
+            send(msg.chat_id_, msg.id_,'['..TextReply..']')
+            return false
+            end
 if text == 'تحبني' then
 TextReply = 'ما احب لوكيه😹🌚'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
