@@ -297,5 +297,5 @@ end
 
 end
 return {
-Poyka = Reply
+Tshake = Reply
 }
