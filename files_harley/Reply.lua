@@ -182,7 +182,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'شسمك' then
-TextReply = 'اسمه ابو راس 😻🤙'
+TextReply = 'اسمه ابو صماخ 😻🤙'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -212,7 +212,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'غلس' then
-TextReply = 'علي شنو اغلس 🌚😂'
+TextReply = 'على شنو اغلس 🌚😂'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -276,11 +276,20 @@ TextReply = 'دنجب لوكي🥺😻'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'حبج' then
+    TextReply = 'ليقشمر عليج كوليله بابنه معروف وتعال اطلبني'
+    send(msg.chat_id_, msg.id_,'['..TextReply..']')
+    return false
+    end
 if text == 'انتة منو' then
 TextReply = 'اني تاج راسك👑🥺'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'مطي' then
+    TextReply = 'تشرفت بيك اني هارلي'
+    send(msg.chat_id_, msg.id_,'['..TextReply..']')
+    return false
 end
 
 if text == 'تفعيل ردود البوت' and Manager(msg) then
