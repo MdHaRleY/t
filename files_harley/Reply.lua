@@ -47,15 +47,15 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'بوت زربه' then
-    TextReply = 'زربه بحلكك وليدي🌚😂'
-    send(msg.chat_id_, msg.id_,'['..TextReply..']')
-    return false
-    end
-    if text == 'ولي' then
-        TextReply = 'طيط لو يجي جدكس'
-        send(msg.chat_id_, msg.id_,'['..TextReply..']')
-        return false
-        end
+TextReply = 'زربه بحلكك وليدي🌚😂'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'ولي' then
+TextReply = 'طيط لو يجي جدكس'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
 if text == 'اريد اكبل' then
 TextReply = 'شوفلي وياك وحده😂🥺'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
@@ -122,20 +122,20 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'نجب' then
-    TextReply = 'كلخره سخيف'
-    send(msg.chat_id_, msg.id_,'['..TextReply..']')
-    return false
-    end
-    if text == 'نجبي' then
-        TextReply = 'بالي وصخ اخي 😹🌚'
-        send(msg.chat_id_, msg.id_,'['..TextReply..']')
-        return false
-        end
-        if text == 'انجبي' then
-            TextReply = 'بالي وصخ اخي 😹🌚'
-            send(msg.chat_id_, msg.id_,'['..TextReply..']')
-            return false
-            end
+TextReply = 'كلخره سخيف'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'نجبي' then
+TextReply = 'بالي وصخ اخي 😹🌚'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'انجبي' then
+TextReply = 'بالي وصخ اخي 😹🌚'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
 if text == 'تحبني' then
 TextReply = 'ما احب لوكيه😹🌚'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
@@ -307,19 +307,19 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'حبج' then
-    TextReply = 'ليقشمر عليج كوليله بابنه معروف وتعال اطلبني'
-    send(msg.chat_id_, msg.id_,'['..TextReply..']')
-    return false
-    end
+TextReply = 'ليقشمر عليج كوليله بابنه معروف وتعال اطلبني'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
 if text == 'انتة منو' then
 TextReply = 'اني تاج راسك👑🥺'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'مطي' then
-    TextReply = 'تشرفت بيك اني هارلي'
-    send(msg.chat_id_, msg.id_,'['..TextReply..']')
-    return false
+TextReply = 'تشرفت بيك اني هارلي'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
 end
 
 if text == 'تفعيل ردود البوت' and Manager(msg) then
