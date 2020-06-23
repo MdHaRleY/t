@@ -2,7 +2,7 @@ local function Reply(msg)
 local text = msg.content_.text_
 if not database:get(bot_id..'Tshake:Reply:Mute'..msg.chat_id_) then
 if text == 'هلو' then
-TextReply = '• هَٰہۧـﮧﮧلْٰاَٰوٍّ໑اَٰتّٰ 🌝☄ֆ'
+TextReply = '• هَٰہۧـﮧﮧلْٰاَٰوٍّ໑اَٰتّٰ 🥺💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -22,7 +22,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'هلاو' then
-TextReply = '• هَٰہۧـہ୪وٍّ୭اَٰتّٰ حٌٰبٌِٰـﮧيَٰ 🤗🌟ֆ'
+TextReply = '• هَٰہۧـہ୪وٍّ୭اَٰتّٰ حٌٰبٌِٰـﮧيَٰ 🥺🖤'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
